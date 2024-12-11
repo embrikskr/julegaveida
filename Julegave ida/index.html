@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Julegave Ida</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h1>God Jul, Ida!</h1>
+            
+            <div class="video-container">
+                <video id="julevideo" width="640" height="360" controls>
+                    <!-- Legg til din videokilde her -->
+                    <source src="din_video_fil.mp4" type="video/mp4">
+                    Nettleseren din støtter dessverre ikke video.
+                </video>
+            </div>
+            
+            <div id="gave-container" class="hidden">
+                <h2>Julegaven din er:</h2>
+                <img src="julegave.jpg" alt="Julegavebilde" width="300" />
+                <p>Dette er en helt spesiell gave, valgt ut bare for deg!</p>
+            </div>
+            
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
